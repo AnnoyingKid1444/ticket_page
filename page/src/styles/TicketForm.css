@@ -1,0 +1,78 @@
+.ticketbody {
+    width: 1470px;
+    height: 923px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: var(--body_background);
+}
+.category {
+    display: flex;
+    justify-content: space-between;
+    color: var(--body_color2);
+}
+
+.Headline {
+    height: 52px;
+    width: 1441px;
+    margin-top: 30px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--body_background);
+    color: var(--body_color2);
+}
+
+.textPlace {
+    width: 1441px;
+    height: 349px;
+    overflow: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    resize: none;
+    background-color: var(--body_background);
+    color: var(--body_color2);
+}
+.buttonGroup {
+    display: flex;
+    position: absolute;
+    Top: 984px;
+    Left: 1686px;
+}
+
+.sendBut {
+    width: 108px;
+    height: 52px;
+    background: #0095F6;
+    box-shadow: 0px 2px 4px rgba(0, 149, 246, 0.15);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.deleteButton {
+    width: 52px;
+    height: 52px;
+    background-color: #F60000;
+    box-shadow: 0px 2px 4px rgba(246, 0, 0, 0.15);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.deleteButton svg {
+    width: 26px;
+    height: 26px;
+    stroke: #ffffff;
+}
